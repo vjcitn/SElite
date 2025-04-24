@@ -1,0 +1,2 @@
+cp $1 /tmp
+sed -e "s/SummarizedExperiment/SElite/g" /tmp/$1 > $1
